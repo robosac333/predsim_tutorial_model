@@ -1,0 +1,65 @@
+[2024-09-16 16:03:08.522] [info] Updating Model file from 40000 to latest format...
+[2024-09-16 16:03:08.558] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-16 16:03:28.244] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-16 16:04:04.219] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-16 16:05:29.346] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-16 16:20:07.810] [info] Updating Model file from 40000 to latest format...
+[2024-09-16 16:20:07.828] [info] Loaded model 3DGaitModelwithSimpleArms from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Hamner_modified\Model\Hamner_modified.osim
+[2024-09-16 16:20:21.168] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\motion.mot (nr=50 nc=124)
+[2024-09-16 16:20:35.679] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)
+[2024-09-16 16:21:05.693] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)
+[2024-09-20 12:17:38.426] [info] Updating Model file from 40000 to latest format...
+[2024-09-20 12:17:38.458] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-20 12:18:43.130] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-20 12:18:59.966] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-23 13:52:27.358] [info] Updating Model file from 40000 to latest format...
+[2024-09-23 13:52:27.384] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-23 13:52:47.982] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-23 13:53:04.339] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-23 16:10:50.548] [info] No external loads will be applied (external loads file not specified).
+[2024-09-23 16:10:50.549] [info] Executing the analyses from 0.0 to 99.0...
+[2024-09-23 16:10:50.558] [warning] Thelen2003Muscle initialization: 'med_gas_l' is at its minimum fiber length of 0.0170355.
+[2024-09-23 16:10:50.558] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.574] [warning] Thelen2003Muscle initialization: 'med_gas_l' is at its minimum fiber length of 0.0170355.
+[2024-09-23 16:10:50.575] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.576] [warning] Thelen2003Muscle initialization: 'med_gas_l' is at its minimum fiber length of 0.0170355.
+[2024-09-23 16:10:50.576] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.577] [warning] Thelen2003Muscle initialization: 'med_gas_l' is at its minimum fiber length of 0.0170355.
+[2024-09-23 16:10:50.577] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.578] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.579] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.580] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.581] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.582] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.583] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.584] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.586] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.587] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.588] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.589] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.591] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.592] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.593] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.594] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.595] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.596] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.597] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.598] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:10:50.600] [warning] Thelen2003Muscle initialization: 'soleus_l' is at its minimum fiber length of 0.0204688.
+[2024-09-23 16:30:59.466] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\ID_withOsimAndIDTool.sto (nr=10 nc=32)
+[2024-09-23 16:50:44.993] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\ID_withOsimAndIDTool.sto (nr=10 nc=32)
+[2024-09-23 16:50:58.760] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-23 16:51:17.056] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-23 16:51:44.686] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\ID_withOsimAndIDTool.sto (nr=10 nc=32)
+[2024-09-26 13:14:09.407] [info] Updating Model file from 40000 to latest format...
+[2024-09-26 13:14:09.430] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-26 13:14:21.102] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-30 14:28:57.166] [info] Updating Model file from 40000 to latest format...
+[2024-09-30 14:28:57.198] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-30 14:29:15.140] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-30 14:29:20.960] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-30 14:29:25.814] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-09-30 14:30:25.117] [info] Updating Model file from 40000 to latest format...
+[2024-09-30 14:30:25.139] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-09-30 14:30:36.652] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-09-30 14:30:41.186] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
