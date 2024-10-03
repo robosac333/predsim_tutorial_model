@@ -33,8 +33,13 @@ from utilities import getJointIndices
 idxJointsToPlot = getJointIndices(joints, jointToPlot)
 NJointsToPlot = len(jointToPlot) 
 
+# Create the directory if it doesn't exist
+save_path = r'C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\plots'
+if not os.path.exists(save_path):
+    os.makedirs(save_path)
+
 fig, ax = plt.subplots(figsize=(10, 6))
-fig.suptitle('Ankle Angle (Right) Joint Position')
+fig.suptitle('Ankle Angle (Right) Joint')
 
 color = iter(plt.cm.rainbow(np.linspace(0, 1, len(cases))))
 plotExperimental = True
@@ -49,16 +54,19 @@ for case in cases:
             optimaltrajectories[case]['coordinate_values'][c_joint_idx:c_joint_idx+1, :].T, 
             c=next(color), label='case_' + case)
 
-if plotExperimental:
-    ax.fill_between(experimentalData[model_name]["kinematics"]["positions"]["GC_percent"],
-                    experimentalData[model_name]["kinematics"]["positions"]["mean"]["ankle_angle_r"] + 2*experimentalData[model_name]["kinematics"]["positions"]["std"]["ankle_angle_r"],
-                    experimentalData[model_name]["kinematics"]["positions"]["mean"]["ankle_angle_r"] - 2*experimentalData[model_name]["kinematics"]["positions"]["std"]["ankle_angle_r"],
-                    facecolor='grey', alpha=0.4, label='Experimental Data (±2 SD)')
+# if plotExperimental:
+#     ax.fill_between(experimentalData[model_name]["kinematics"]["positions"]["GC_percent"],
+#                     experimentalData[model_name]["kinematics"]["positions"]["mean"]["ankle_angle_r"] + 2*experimentalData[model_name]["kinematics"]["positions"]["std"]["ankle_angle_r"],
+#                     experimentalData[model_name]["kinematics"]["positions"]["mean"]["ankle_angle_r"] - 2*experimentalData[model_name]["kinematics"]["positions"]["std"]["ankle_angle_r"],
+#                     facecolor='grey', alpha=0.4, label='Experimental Data (±2 SD)')
 
 ax.set_xlabel('Gait cycle (%)')
 ax.set_ylabel('Angle (deg)')
 ax.set_title('Ankle Angle (Right)')
 ax.legend(loc='upper right')
+
+fig.tight_layout()  # Use tight layout to prevent label clipping
+fig.savefig(os.path.join(save_path, 'ankle_angle_r.png'), dpi=300)
 
 # plt.tight_layout()
 # plt.show()
@@ -80,16 +88,18 @@ for case in cases:
             optimaltrajectories[case]['joint_torques'][c_joint_idx:c_joint_idx+1, :].T, 
             c=next(color), label='case_' + case)
 
-if plotExperimental:
-    ax.fill_between(experimentalData[model_name]["kinetics"]["GC_percent"],
-                    experimentalData[model_name]["kinetics"]["mean"]["ankle_angle_r"] + 2*experimentalData[model_name]["kinetics"]["std"]["ankle_angle_r"],
-                    experimentalData[model_name]["kinetics"]["mean"]["ankle_angle_r"] - 2*experimentalData[model_name]["kinetics"]["std"]["ankle_angle_r"],
-                    facecolor='grey', alpha=0.4, label='Experimental Data (±2 SD)')
+# if plotExperimental:
+#     ax.fill_between(experimentalData[model_name]["kinetics"]["GC_percent"],
+#                     experimentalData[model_name]["kinetics"]["mean"]["ankle_angle_r"] + 2*experimentalData[model_name]["kinetics"]["std"]["ankle_angle_r"],
+#                     experimentalData[model_name]["kinetics"]["mean"]["ankle_angle_r"] - 2*experimentalData[model_name]["kinetics"]["std"]["ankle_angle_r"],
+#                     facecolor='grey', alpha=0.4, label='Experimental Data (±2 SD)')
 
 ax.set_xlabel('Gait cycle (%)')
 ax.set_ylabel('Torque (Nm)')
-ax.set_title('Ankle Angle (Right)')
+ax.set_title('Ankle Angle (Right) Torque')
 # ax.legend(loc='upper right')
 
-plt.tight_layout()
-plt.show()
+fig.tight_layout()  # Use tight layout to prevent label clipping
+fig.savefig(os.path.join(save_path, 'ankle_angle_r_torque.png'), dpi=300)
+# plt.tight_layout()
+# plt.show()
