@@ -63,3 +63,334 @@
 [2024-09-30 14:30:25.139] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
 [2024-09-30 14:30:36.652] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
 [2024-09-30 14:30:41.186] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-10-04 14:04:30.166] [info] Updating Model file from 40000 to latest format...
+[2024-10-04 14:04:30.189] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-04 14:04:45.851] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-04 14:05:58.121] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-10-08 13:27:10.498] [info] Updating Model file from 40000 to latest format...
+[2024-10-08 13:27:10.519] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-08 13:27:34.411] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-08 13:27:41.536] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-10-08 16:36:54.695] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-08 16:37:29.006] [info] Loading coordinates from file 'C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot'.
+[2024-10-08 16:37:29.007] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-08 16:37:29.033] [info] Found 50 state vectors with time stamps ranging from 0.0 to 1.10078.
+[2024-10-08 16:37:29.055] [info] No external loads will be applied (external loads file not specified).
+[2024-10-08 16:37:29.067] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-08 16:37:29.125] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model
+[2024-10-11 11:26:58.741] [info] Updating Model file from 40000 to latest format...
+[2024-10-11 11:26:58.775] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-11 11:30:05.579] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-11 11:30:11.856] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-10-11 11:34:40.467] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\Hamner_modified_scaled_Kinematics_q.sto (nr=50 nc=32)
+[2024-10-11 11:53:34.776] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\Hamner_modified_scaled_Kinematics_dudt.sto (nr=50 nc=32)
+[2024-10-11 11:55:39.239] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\Hamner_modified_scaled_Kinematics_u.sto (nr=50 nc=32)
+[2024-10-11 11:58:18.771] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\Hamner_modified_scaled_Kinematics_dudt.sto (nr=50 nc=32)
+[2024-10-11 12:45:09.454] [info] Creating states from motion storage...
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:45:09.456] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:45:09.457] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:45:09.458] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:45:09.458] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:45:09.508] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:45:09.531] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:45:09.588] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\probe_report
+[2024-10-11 12:54:53.672] [info] Creating states from motion storage...
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:54:53.672] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:54:53.673] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:54:53.709] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:54:53.730] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:54:53.798] [info] PointKinematics.end: Finalizing analysis PointKinematics.
+[2024-10-11 12:54:53.799] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\probe_report
+[2024-10-11 12:56:06.023] [info] Creating states from motion storage...
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:56:06.023] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:56:06.057] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:56:06.082] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:56:06.128] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\point_kinematics\..\probe_report
+[2024-10-11 12:56:37.143] [info] Creating states from motion storage...
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:56:37.143] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:56:37.179] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:56:37.203] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:56:37.251] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\probe_report\..\probe_report
+[2024-10-11 12:58:00.082] [info] Creating states from motion storage...
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:58:00.082] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:58:00.083] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:58:00.117] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:58:00.140] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:58:00.215] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\body_kinematics\..\probe_report
+[2024-10-11 12:58:40.247] [info] Creating states from motion storage...
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 12:58:40.247] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 12:58:40.248] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 12:58:40.284] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 12:58:40.310] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 12:58:40.370] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\joint_reaction\..\probe_report
+[2024-10-11 13:00:25.780] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\motion.mot (nr=50 nc=124)
+[2024-10-11 13:00:38.156] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\GRF.mot (nr=50 nc=19)
+[2024-10-11 13:02:29.543] [info] Creating states from motion storage...
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tilt/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_list/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_rotation/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tx/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_ty/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ground_pelvis/pelvis_tz/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_flexion_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_adduction_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_r/hip_rotation_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_r/knee_angle_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_r/ankle_angle_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_r/subtalar_angle_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_r/mtp_angle_r/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_flexion_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_adduction_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/hip_l/hip_rotation_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/knee_l/knee_angle_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/ankle_l/ankle_angle_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/subtalar_l/subtalar_angle_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/mtp_l/mtp_angle_l/value in storage object.
+[2024-10-11 13:02:29.543] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_extension/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_bending/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/back/lumbar_rotation/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_flex_r/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_add_r/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_r/arm_rot_r/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_r/elbow_flex_r/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_flex_l/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_add_l/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/acromial_l/arm_rot_l/value in storage object.
+[2024-10-11 13:02:29.544] [warning] Model::formCompleteStorages():  Did not find column /jointset/elbow_l/elbow_flex_l/value in storage object.
+[2024-10-11 13:02:29.579] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 13:02:29.601] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 13:02:29.656] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model
+[2024-10-11 13:21:55.497] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 13:31:31.798] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_PointKinematics_NONAME_pos.sto (nr=50 nc=4)
+[2024-10-11 13:31:40.941] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 13:32:29.374] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-11 13:32:50.221] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-11 13:33:50.741] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 13:35:09.476] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 13:35:40.765] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 13:40:08.181] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report\Hamner_modified_scaled_ProbeReporter_probes.sto (nr=50 nc=1)
+[2024-10-11 13:50:14.862] [info] Creating states from motion storage...
+[2024-10-11 13:50:14.905] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 13:50:14.926] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 13:50:14.974] [info] PointKinematics.end: Finalizing analysis PointKinematics.
+[2024-10-11 13:50:14.974] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\point_kinematics
+[2024-10-11 13:52:12.439] [info] Creating states from motion storage...
+[2024-10-11 13:52:12.480] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 13:52:12.499] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 13:52:12.541] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics
+[2024-10-11 13:53:04.841] [info] Creating states from motion storage...
+[2024-10-11 13:53:04.882] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 13:53:04.905] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 13:53:04.948] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\probe_report
+[2024-10-11 13:54:15.166] [info] Creating states from motion storage...
+[2024-10-11 13:54:15.208] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 13:54:15.225] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 13:54:15.301] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\joint_reaction
+[2024-10-11 14:03:06.141] [info] Creating states from motion storage...
+[2024-10-11 14:03:06.183] [info] No external loads will be applied (external loads file not specified).
+[2024-10-11 14:03:06.208] [info] Executing the analyses from 0.0 to 1.10078...
+[2024-10-11 14:03:06.250] [info] Printing results of investigation Hamner_modified_scaled to C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter
+[2024-10-11 14:04:40.382] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-11 14:04:45.468] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-11 14:05:05.501] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\point_kinematics\Hamner_modified_scaled_PointKinematics_NONAME_pos.sto (nr=50 nc=4)
+[2024-10-11 14:05:27.398] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-11 14:06:14.989] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-14 11:37:32.352] [info] Updating Model file from 40000 to latest format...
+[2024-10-14 11:37:32.379] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-14 11:38:04.699] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-14 11:43:42.502] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-14 13:52:39.815] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-14 13:58:15.935] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics\Hamner_modified_scaled_BodyKinematics_pos_global.sto (nr=50 nc=124)
+[2024-10-14 14:07:39.160] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\body_kinematics\Hamner_modified_scaled_BodyKinematics_acc_global.sto (nr=50 nc=124)
+[2024-10-18 11:34:00.462] [info] Updating Model file from 40000 to latest format...
+[2024-10-18 11:34:00.502] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-18 11:34:17.887] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-18 11:36:10.757] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-18 11:36:15.389] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-18 11:36:28.131] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-18 11:36:38.716] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-18 11:36:52.141] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-18 11:36:58.588] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-18 11:37:03.765] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-18 11:37:31.861] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter\Hamner_modified_scaled_ForceReporter_forces.sto (nr=50 nc=237)
+[2024-10-18 11:40:09.722] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter\Hamner_modified_scaled_ForceReporter_forces.sto (nr=50 nc=237)
+[2024-10-18 11:43:36.765] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter\Hamner_modified_scaled_ForceReporter_forces.sto (nr=50 nc=237)
+[2024-10-18 11:53:32.557] [info] Updating Model file from 40000 to latest format...
+[2024-10-18 11:53:32.575] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Hamner_modified_stifferContacts\Model\Hamner_modified_stifferContacts_scaled.osim
+[2024-10-18 11:53:50.396] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\motion.mot (nr=50 nc=124)
+[2024-10-18 11:54:03.597] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)
+[2024-10-18 11:54:09.229] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)

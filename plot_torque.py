@@ -87,6 +87,8 @@ for case in cases:
     ax.plot(optimaltrajectories[case]['GC_percent'],
             optimaltrajectories[case]['joint_torques'][c_joint_idx:c_joint_idx+1, :].T, 
             c=next(color), label='case_' + case)
+    
+
 
 # if plotExperimental:
 #     ax.fill_between(experimentalData[model_name]["kinetics"]["GC_percent"],
