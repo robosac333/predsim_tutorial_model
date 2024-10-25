@@ -11,9 +11,9 @@ import os
 import sys
 
 # Add the main folder to the Python path
-current_directory = os.path.dirname(os.path.abspath(__file__))  # Path of the current script
-sys.path.append(current_directory)
-# print('sys.path', sys.path)
+base_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(base_directory)
+print('sys.path', sys.path)
 
 import utilities 
 
@@ -31,21 +31,24 @@ motion_data = pd.DataFrame(motion_data)
 
 grf_data = pd.DataFrame(grf_data)
 
+print('motion_data', motion_data.shape, 'grf_data', grf_data.shape)
+# %% Data manipulation
 # print('motion_data', motion_data.iloc[:, 0])
 
-start_idx = np.where(motion_data.iloc[:, 0] == 4.49)[0][0]
+start_idx = np.where(grf_data.iloc[:, 0] == 4.49)[0][0]
 
+print('start_idx', start_idx)
 # Create array of incremental values
-incremental_values = np.arange(0, len(motion_data) - start_idx) * 0.05 + 4.49
+incremental_values = np.arange(0, len(grf_data) - start_idx) * 0.005 + 4.49
 
-motion_data.loc[start_idx:, 'time'] = incremental_values
+grf_data.loc[start_idx:, 'time'] = incremental_values
 
-motion_data = motion_data.to_numpy()
+grf_data = grf_data.to_numpy()
 # print('motion_data', grf_data.iloc[:, 0])
 
 # print('incremental_values', incremental_values)
 
-storage_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\sachin.sto"
+storage_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\sachin_unperturbed_grf.sto"
 
 
 # %% From numpy array to storage file.
@@ -71,5 +74,5 @@ def numpy2storage(labels, data, storage_file):
 
     f.close()
 
-numpy2storage(motion_column_names, motion_data, storage_file)
-print('motion_data.shape', motion_data.shape[1],'motion_column_names', len(motion_column_names))
+numpy2storage(grf_column_names, grf_data, storage_file)
+print('motion_data.shape', grf_data.shape[1],'grf_column_names', len(grf_column_names))

@@ -12,7 +12,8 @@ sys.path.append(main_folder_path)
 from utilities import storage2numpy
 
 # Load the .sto file
-path_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\Contact_forces\Right Legs1s2s6\Contact_forces_right_leg.sto"
+# path_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\Contact_forces\Right Legs1s2s6\Contact_forces_right_leg.sto"
+path_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\force_reporter\Force_report_Heel_r_lateral_midfoot_r_medial_toe_r"
 data, column_names = storage2numpy(path_file)
 
 #Convert numpy array to pandas dataframe and add column names
