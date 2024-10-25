@@ -1,0 +1,47 @@
+[2024-10-22 15:14:26.720] [info] Updating Model file from 40000 to latest format...
+[2024-10-22 15:14:26.742] [info] Loaded model ankle_perturb_sim_subject01 from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\model_unperturbed.osim
+[2024-10-22 15:14:35.683] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:14:35.683] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:14:35.684] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:14:35.684] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-22 15:15:18.748] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:15:18.749] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:15:18.749] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:15:18.749] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-22 15:16:57.272] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:16:57.272] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:16:57.272] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:16:57.272] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-22 15:19:37.088] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:19:37.088] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:19:37.088] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:19:37.088] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-22 15:21:24.218] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:21:24.219] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:21:24.219] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:21:24.219] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-22 15:23:17.523] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-10-22 15:23:17.523] [warning] Reverting to use conventional Storage reader.
+[2024-10-22 15:23:17.523] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-10-22 15:23:17.523] [warning] Storage: Inconsistent headers in file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-10-24 18:14:49.830] [info] Updating Model file from 40000 to latest format...
+[2024-10-24 18:14:49.852] [info] Loaded model ankle_perturb_sim_subject01 from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\model_unperturbed.osim
+[2024-10-24 18:18:28.796] [info] Old version storage/motion file encountered
+[2024-10-24 18:18:28.796] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\sachin.sto (nr=446 nc=267)
+[2024-10-24 18:18:28.796] [info] .. assuming rotations in Radians..
+[2024-10-24 18:29:37.282] [info] Updating Model file from 40000 to latest format...
+[2024-10-24 18:29:37.299] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-24 18:29:51.623] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-24 18:41:50.519] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)

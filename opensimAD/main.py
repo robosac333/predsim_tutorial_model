@@ -42,10 +42,11 @@ pathMain = os.getcwd()
 # %% User inputs.
 # Provide path to the directory where you want to save your results.
 # pathModelFolder = os.path.join(pathMain, 'examples')
-pathModelFolder = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model"
+pathModelFolder = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model"
 # Provide path to OpenSim model.
 # modelName = 'Hamner_modified'
-modelName = 'very_weak_glutes'
+# modelName = 'model_perturbed_torque0_time60_rise10_fall5'
+modelName = 'ankle_perturb_sim_subject19'
 pathOpenSimModel = os.path.join(pathModelFolder, modelName + '.osim')
 # Provide path to the InverseDynamics folder.
 # To verify that what we did is correct, we compare torques returned by the

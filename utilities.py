@@ -58,7 +58,7 @@ def storage2numpy(storage_file, excess_header_entries=0):
     data = np.genfromtxt(storage_file, names=names,
             skip_header=skip_header)
 
-    return data
+    return data, column_names
     
 # %% Storage file to dataframe.
 def storage2df(storage_file, headers):

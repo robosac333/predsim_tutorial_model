@@ -394,3 +394,24 @@
 [2024-10-18 11:53:50.396] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\motion.mot (nr=50 nc=124)
 [2024-10-18 11:54:03.597] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)
 [2024-10-18 11:54:09.229] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0_ref\GRF.mot (nr=50 nc=19)
+[2024-10-18 14:28:32.577] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter\Hamner_modified_scaled_ForceReporter_forces.sto (nr=50 nc=237)
+[2024-10-18 14:29:24.161] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\force_reporter\Hamner_modified_scaled_ForceReporter_forces.sto (nr=50 nc=237)
+[2024-10-21 14:52:06.678] [info] Updating Model file from 40000 to latest format...
+[2024-10-21 14:52:06.699] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-21 14:52:33.296] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-10-21 14:52:40.568] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\GRF.mot (nr=50 nc=19)
+[2024-10-21 16:33:49.975] [info] Updating Model file from 10500 to latest format...
+[2024-10-21 16:42:47.817] [info] Updating Model file from 10500 to latest format...
+[2024-10-22 13:28:15.971] [info] Updating Model file from 40000 to latest format...
+[2024-10-22 13:28:15.992] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-22 13:28:33.083] [info] Old version storage/motion file encountered
+[2024-10-22 13:28:33.083] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\GIL12\Free4\GIL12_free4Moments.mot (nr=111 nc=7)
+[2024-10-22 13:28:33.083] [info] .. assuming rotations in Degrees..
+[2024-10-22 13:28:40.697] [info] Old version storage/motion file encountered
+[2024-10-22 13:28:40.697] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\GIL12\Free4\GIL12_free4EmgEnv.mot (nr=999 nc=51)
+[2024-10-22 13:28:40.698] [info] .. assuming rotations in Degrees..
+[2024-10-22 13:29:49.740] [info] Updating Model file from 40000 to latest format...
+[2024-10-22 13:29:49.758] [info] Loaded model 3DGaitModel2392 from file C:\OpenSim 4.5\Resources\Models\Gait2392_Simbody\gait2392_simbody.osim
+[2024-10-22 13:30:11.109] [info] Old version storage/motion file encountered
+[2024-10-22 13:30:11.109] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\GIL12\Free4\GIL12_free4Moments.mot (nr=111 nc=7)
+[2024-10-22 13:30:11.109] [info] .. assuming rotations in Degrees..
