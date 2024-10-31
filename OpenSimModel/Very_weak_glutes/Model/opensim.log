@@ -415,3 +415,6 @@
 [2024-10-22 13:30:11.109] [info] Old version storage/motion file encountered
 [2024-10-22 13:30:11.109] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\GIL12\Free4\GIL12_free4Moments.mot (nr=111 nc=7)
 [2024-10-22 13:30:11.109] [info] .. assuming rotations in Degrees..
+[2024-10-25 16:38:56.833] [info] Updating Model file from 40000 to latest format...
+[2024-10-25 16:38:56.890] [info] Loaded model Hamner_modified_scaled from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-10-25 16:40:39.297] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)

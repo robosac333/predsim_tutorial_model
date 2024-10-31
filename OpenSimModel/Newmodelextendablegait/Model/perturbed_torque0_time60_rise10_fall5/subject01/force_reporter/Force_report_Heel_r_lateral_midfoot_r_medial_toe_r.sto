@@ -4,7 +4,7 @@ nRows=1338
 nColumns=5
 inDegrees=no
 endheader
-time	time	contactHeel_r.Sphere.force.Y	contactLateralMidfoot_r.Sphere.force.Y	contactMedialToe_r.Sphere.force.Y
+srno.	time	contactHeel_r.Sphere.force.Y	contactLateralMidfoot_r.Sphere.force.Y	contactMedialToe_r.Sphere.force.Y
       0.00000000	      3.38000000	      3.62822314	      0.00000000	      0.00000000
       1.00000000	      3.38500000	      5.15469926	      0.00000000	      0.00000000
       2.00000000	      3.39000000	      7.83117923	      0.00000000	      0.00000000
