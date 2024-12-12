@@ -418,3 +418,8 @@
 [2024-10-25 16:38:56.833] [info] Updating Model file from 40000 to latest format...
 [2024-10-25 16:38:56.890] [info] Loaded model Hamner_modified_scaled from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
 [2024-10-25 16:40:39.297] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-11-04 09:36:54.212] [info] Updating Model file from 40000 to latest format...
+[2024-11-04 09:36:54.366] [info] Loaded model Hamner_modified_scaled from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
+[2024-11-04 09:37:58.361] [info] Old version storage/motion file encountered
+[2024-11-04 09:37:58.362] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\Results\Case_6\load_motion_data\motion_extend.mot (nr=500 nc=124)
+[2024-11-04 09:37:58.362] [info] .. assuming rotations in Degrees..

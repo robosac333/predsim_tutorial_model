@@ -18,37 +18,73 @@ print('sys.path', sys.path)
 import utilities 
 
 # Load the .sto file
-motion_path_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto"
-
-grf_path_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed_grfs.sto"
+motion_path_file = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\load_motion_data\motion_extend.mot"
+grf_path_file = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\load_motion_data\GRF_extend.mot"
+contact_data = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\force_reporter\Hamner_modified_scaled_ForceReporter_forces_extended.sto"
 
 motion_data, motion_column_names = utilities.storage2numpy(motion_path_file)
 
 grf_data, grf_column_names = utilities.storage2numpy(grf_path_file)
+
+contact_data, contact_column_names = utilities.storage2numpy(contact_data)
 
 #Convert numpy array to pandas dataframe and add column names
 motion_data = pd.DataFrame(motion_data)
 
 grf_data = pd.DataFrame(grf_data)
 
-print('motion_data', motion_data.shape, 'grf_data', grf_data.shape)
-# %% Data manipulation
+contact_data = pd.DataFrame(contact_data)
+
+print('motion_data', motion_data.shape, 'grf_data', grf_data.shape, 'contact_data', contact_data.shape)
+# %% Data manipulation for motion data
 # print('motion_data', motion_data.iloc[:, 0])
 
-start_idx = np.where(grf_data.iloc[:, 0] == 4.49)[0][0]
+# start_idx = np.where(motion_data.iloc[:, 0] == 1.10078152)[0][0]
+
+# print('start_idx', start_idx)
+# # Create array of incremental values
+# incremental_values = np.arange(0, len(motion_data) - start_idx) * 0.02 + 1.10078152
+
+# motion_data.loc[start_idx:, 'time'] = incremental_values
+
+# motion_data = motion_data.to_numpy()
+# # print('motion_data', grf_data.iloc[:, 0])
+
+# # print('incremental_values', incremental_values)
+
+# storage_file = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\load_motion_data\motion_extend.mot"
+
+# # %% Data manipulation for GRF data
+# start_idx = np.where(grf_data.iloc[:, 0] == 1.10078152)[0][0]
+
+# print('start_idx', start_idx)
+# # Create array of incremental values
+# incremental_values = np.arange(0, len(grf_data) - start_idx) * 0.02 + 1.10078152
+
+# grf_data.loc[start_idx:, 'time'] = incremental_values
+
+# grf_data = grf_data.to_numpy()
+# # print('motion_data', grf_data.iloc[:, 0])
+
+# # print('incremental_values', incremental_values)
+
+# storage_file = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\load_motion_data\GRF_extend.mot"
+
+# %% Data manipulation for contact data
+start_idx = np.where(contact_data.iloc[:, 0] == 1.10078152)[0][0]
 
 print('start_idx', start_idx)
 # Create array of incremental values
-incremental_values = np.arange(0, len(grf_data) - start_idx) * 0.005 + 4.49
+incremental_values = np.arange(0, len(contact_data) - start_idx) * 0.02 + 1.10078152
 
-grf_data.loc[start_idx:, 'time'] = incremental_values
+contact_data.loc[start_idx:, 'time'] = incremental_values
 
-grf_data = grf_data.to_numpy()
+contact_data = contact_data.to_numpy()
 # print('motion_data', grf_data.iloc[:, 0])
 
 # print('incremental_values', incremental_values)
 
-storage_file = r"C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\sachin_unperturbed_grf.sto"
+storage_file = r"C:\Users\sachi\predsim_tutorial_model\Results\Case_6\force_reporter\Hamner_modified_scaled_ForceReporter_forces_extended.sto"
 
 
 # %% From numpy array to storage file.
@@ -74,5 +110,7 @@ def numpy2storage(labels, data, storage_file):
 
     f.close()
 
-numpy2storage(grf_column_names, grf_data, storage_file)
-print('motion_data.shape', grf_data.shape[1],'grf_column_names', len(grf_column_names))
+numpy2storage(contact_column_names, contact_data, storage_file)
+print('motion_data.shape', contact_data.shape[1],'grf_column_names', len(contact_column_names))
+
+# %%

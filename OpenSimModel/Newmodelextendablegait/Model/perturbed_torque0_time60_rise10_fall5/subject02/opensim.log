@@ -1,0 +1,48 @@
+[2024-11-24 14:23:49.993] [info] Updating Model file from 40000 to latest format...
+[2024-11-24 14:23:50.210] [info] Loaded model ankle_perturb_sim_subject02 from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject02\model_perturbed_torque0_time60_rise10_fall5.osim
+[2024-11-24 14:25:38.098] [info] Creating states from motion storage...
+[2024-11-24 14:25:39.761] [info] No external loads will be applied (external loads file not specified).
+[2024-11-24 14:25:39.806] [info] Executing the analyses from 3.08 to 4.25...
+[2024-11-24 14:25:42.626] [info] Printing results of investigation ankle_perturb_sim_subject02 to C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject02
+[2024-11-25 05:50:47.444] [info] Updating Model file from 40000 to latest format...
+[2024-11-25 05:50:47.592] [info] Loaded model ankle_perturb_sim_subject02 from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject02\model_perturbed_torque0_time60_rise10_fall5.osim
+[2024-11-25 05:54:03.514] [info] Creating states from motion storage...
+[2024-11-25 05:54:05.418] [info] No external loads will be applied (external loads file not specified).
+[2024-11-25 05:54:05.458] [info] Executing the analyses from 3.08 to 4.25...
+[2024-11-25 05:54:08.154] [info] Printing results of investigation ankle_perturb_sim_subject02 to C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject02
+[2024-11-25 08:52:25.404] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:52:25.405] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:52:25.405] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-25 08:52:25.405] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-25 08:52:37.479] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:52:37.479] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:52:37.479] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-25 08:52:37.479] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-25 08:52:53.010] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:52:53.010] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:52:53.010] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-25 08:52:53.010] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-25 08:53:14.703] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:53:14.704] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:53:14.704] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-25 08:53:14.704] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-25 08:53:27.290] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:53:27.290] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:53:27.290] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-25 08:53:27.290] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-25 08:53:37.061] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-25 08:53:37.061] [warning] Reverting to use conventional Storage reader.
+[2024-11-25 08:53:37.061] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed_grfs.sto (nr=0 nc=0)
+[2024-11-25 08:53:37.061] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed_grfs.sto. nColumns=0 but 19 were found

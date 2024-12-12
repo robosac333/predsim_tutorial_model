@@ -45,3 +45,46 @@ Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at r
 [2024-10-24 18:29:37.299] [info] Loaded model Hamner_modified_scaled from file C:\Users\sjd3333\Desktop\predsim_tutorial\OpenSimModel\Very_weak_glutes\Model\very_weak_glutes.osim
 [2024-10-24 18:29:51.623] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
 [2024-10-24 18:41:50.519] [info] Storage: read data file = C:\Users\sjd3333\Desktop\predsim_tutorial\Results\Case_0\load_motion_data\motion.mot (nr=50 nc=124)
+[2024-11-08 16:37:56.424] [info] Updating Model file from 40000 to latest format...
+[2024-11-08 16:37:56.494] [info] Loaded model ankle_perturb_sim_subject01 from file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\model_perturbed_torque0_time60_rise10_fall5.osim
+[2024-11-08 16:38:24.217] [warning] Storage: FileAdpater failed to read data file.
+Timestamp at row 222 with value 4.490000 is greater-than/equal to timestamp at row 223 with value 3.380000
+	Thrown at TimeSeriesTable.h:493 in validateRow().
+[2024-11-08 16:38:24.217] [warning] Reverting to use conventional Storage reader.
+[2024-11-08 16:38:24.217] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto (nr=0 nc=0)
+[2024-11-08 16:38:24.217] [warning] Storage: Inconsistent headers in file C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\unperturbed.sto. nColumns=0 but 267 were found
+[2024-11-08 16:40:17.231] [info] Old version storage/motion file encountered
+[2024-11-08 16:40:17.231] [info] Storage: read data file = C:\Users\sachi\predsim_tutorial_model\OpenSimModel\Newmodelextendablegait\Model\perturbed_torque0_time60_rise10_fall5\subject01\sachin_unperturbed_grf.sto (nr=1338 nc=19)
+[2024-11-08 16:40:17.231] [info] .. assuming rotations in Radians..
+[2024-11-08 17:00:13.659] [info] Updating Model file from 30000 to latest format...
+[2024-11-08 17:00:13.702] [info] Loaded model Loaded_with_ankle_actuator_adjusted_probed from file C:\Users\sachi\Downloads\exosuit_models\Loaded gait models\loaded_adjusted_probed_with_AnkleActuator.osim
+[2024-11-08 17:00:13.776] [warning] Couldn't find file '/backpack0.vtp'.
+[2024-11-08 17:00:13.777] [info] ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+[2024-11-08 17:00:13.779] [info] ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+[2024-11-08 17:00:27.664] [error] Umberger2010MuscleMetabolicsProbe(metabolic_energy_wholebody): Mismatch between the size of the data labels corresponding to the size of the data vector being integrated (1) and size of initial conditions vector (0).
+Assuming an initial condition vector of 1 zeros.
+
+[2024-11-08 17:00:28.025] [warning] Visualizer couldn't open /backpack0.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name '/backpack0.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file '/backpack0.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2024-11-08 17:00:58.636] [info] Updating Model file from 30000 to latest format...
+[2024-11-08 17:00:58.680] [info] Loaded model Unloaded_no_actuator_adjusted_probed from file C:\Users\sachi\Downloads\exosuit_models\Unloaded gait models\unloaded_adjusted_probed_BaseModel.osim
+[2024-11-08 17:00:58.686] [warning] Couldn't find file '/backpack0.vtp'.
+[2024-11-08 17:00:58.686] [info] ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+[2024-11-08 17:00:58.688] [info] ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+[2024-11-08 17:01:12.031] [error] Umberger2010MuscleMetabolicsProbe(metabolic_energy_wholebody): Mismatch between the size of the data labels corresponding to the size of the data vector being integrated (1) and size of initial conditions vector (0).
+Assuming an initial condition vector of 1 zeros.
+
+[2024-11-08 17:01:12.373] [warning] Visualizer couldn't open /backpack0.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name '/backpack0.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file '/backpack0.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
